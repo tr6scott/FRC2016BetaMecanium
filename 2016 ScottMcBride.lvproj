@@ -140,6 +140,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="E2 Data Logger.vi" Type="VI" URL="../TORC Code/E2 Data Logger.vi"/>
+		<Item Name="New Log File.vi" Type="VI" URL="../TORC Code/New Log File.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -787,6 +789,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SERIAL_Close.vi" Type="VI" URL="../NAVx-MXP/navX-MXP Library/SERIAL/IO/SERIAL_Close.vi"/>
 			<Item Name="SERIAL_GetYPRH.vi" Type="VI" URL="../NAVx-MXP/navX-MXP Library/SERIAL/Get/SERIAL_GetYPRH.vi"/>
 			<Item Name="SERIAL_Open.vi" Type="VI" URL="../NAVx-MXP/navX-MXP Library/SERIAL/IO/SERIAL_Open.vi"/>
+			<Item Name="TOF.vi" Type="VI" URL="../TORC Code/TOF.vi"/>
 			<Item Name="TON.vi" Type="VI" URL="../../MecaniumLabview/TORC Code/TON.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -807,7 +810,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BC77B77B-0D4B-4090-BB68-7175FFCF3C10}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
